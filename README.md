@@ -1,2 +1,19 @@
 # Resposive-Web-Design
-Projects built during the freeCodeCamp Responsive Web Design course. Includes a tribute page, survey form, product landing page, technical documentation, and DEMO personal portfolio , showcasing HTML, CSS, and responsive design skills.
+Projects built during the freeCodeCamp Responsive Web Design course.
+
+# Certification
+Each project demonstrates fundamental web development skills, including HTML, CSS, and responsive layouts.
+
+# Projects
+
+1. Tribute Page
+2. Survey Form
+3. Product Landing Page
+4. Technical Documentation Page
+5. Personal Portfolio Webpage
+
+# Technologies Used
+  HTML5
+  CSS3
+  Flexbox & Grid
+  Responsive Design Principles
