@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="prod-styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header id="header">
+    <div class="logo">
+      <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="Company Logo">
+    </div>
+    <nav id="nav-bar">
+      <a class="nav-link" href="#features">Features</a>
+      <a class="nav-link" href="#video-section">Demo</a>
+      <a class="nav-link" href="#pricing">Pricing</a>
+    </nav>
+  </header>
+
+  <!-- Main Section -->
+  <section id="Main">
+    <h1>Build Faster. Smarter. Better.</h1>
+    <p>The ultimate toolkit to supercharge your productivity.</p>
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+      <input id="email" type="email" name="email" placeholder="Enter your email address" required>
+      <input id="submit" type="submit" value="Get Started">
+    </form>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features">
+    <h2>Why Choose Us?</h2>
+    <div class="features-container">
+      <div class="feature">
+        <h3>⚡ Speed</h3>
+        <p>Optimized performance for all your projects.</p>
+      </div>
+      <div class="feature">
+        <h3>🔒 Security</h3>
+        <p>Top-grade encryption and protection for your data.</p>
+      </div>
+      <div class="feature">
+        <h3>🌍 Accessibility</h3>
+        <p>Accessible on all devices, anytime, anywhere.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Section -->
+  <section id="video-section">
+    <h2>See It in Action</h2>
+    <iframe 
+      id="video"
+      width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/mq508HXzccI" 
+      title="Product Demo Video" 
+      frameborder="0" 
+      allowfullscreen>
+    </iframe>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing">
+    <h2>Pricing Plans</h2>
+    <div class="pricing-container">
+      <div class="plan">
+        <h3>Basic</h3>
+        <p>R90/month</p>
+        <button>Select</button>
+      </div>
+      <div class="plan">
+        <h3>Pro</h3>
+        <p>R290/month</p>
+        <button>Select</button>
+      </div>
+      <div class="plan">
+        <h3>Enterprise</h3>
+        <p>R990/month</p>
+        <button>Select</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Productivity Tools Inc.</p>
+  </footer>
+</body>
+</html>
