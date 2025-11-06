@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="survey-styles.css">
+  
+    
+   
+  
+</head>
+<body>
+  <div id="form-container">
+    <h1 id="title">Student Experience Survey</h1>
+    <p id="description">We’d love your feedback to help us improve learning at our university.</p>
+
+    <form id="survey-form">
+      <!-- Name -->
+      <div class="form-group">
+        <label id="name-label" for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+      </div>
+
+      <!-- Email -->
+      <div class="form-group">
+        <label id="email-label" for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+      </div>
+
+      <!-- Number -->
+      <div class="form-group">
+        <label id="number-label" for="number">Age:</label>
+        <input type="number" id="number" name="age" min="16" max="100" placeholder="Enter your age">
+      </div>
+
+      <!-- Dropdown -->
+      <div class="form-group">
+        <label for="dropdown">Which faculty are you in?</label>
+        <select id="dropdown" name="faculty" required>
+          <option value="">-- Select Faculty --</option>
+          <option value="science">Science & Engineering</option>
+          <option value="commerce">Commerce & Management</option>
+          <option value="arts">Arts & Humanities</option>
+        </select>
+      </div>
+
+      <!-- Radio buttons -->
+      <div class="form-group">
+        <label>How satisfied are you with your course?</label>
+        <label><input type="radio" name="satisfaction" value="very-satisfied" required> Very Satisfied</label>
+        <label><input type="radio" name="satisfaction" value="satisfied"> Satisfied</label>
+        <label><input type="radio" name="satisfaction" value="neutral"> Neutral</label>
+        <label><input type="radio" name="satisfaction" value="unsatisfied"> Unsatisfied</label>
+      </div>
+
+      <!-- Checkboxes -->
+      <div class="form-group">
+        <label>What would you like improved? (Select all that apply)</label>
+        <label><input type="checkbox" value="facilities"> Campus Facilities</label>
+        <label><input type="checkbox" value="teaching"> Quality of Teaching</label>
+        <label><input type="checkbox" value="resources"> Learning Resources</label>
+        <label><input type="checkbox" value="support"> Student Support</label>
+      </div>
+
+      <!-- Textarea -->
+      <div class="form-group">
+        <label for="comments">Additional Comments:</label>
+        <textarea id="comments" name="comments" placeholder="Write your feedback here..." rows="4"></textarea>
+      </div>
+
+      <!-- Submit -->
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
